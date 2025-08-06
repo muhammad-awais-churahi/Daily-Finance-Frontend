@@ -155,7 +155,7 @@ import React, { useState } from "react";
 import { Pencil, Trash2 } from "lucide-react";
 import axios from "axios";
 
-const SubscriptionForm = () => {
+const Subs = () => {
   const [formData, setFormData] = useState({
     phoneNumber: "",
     email: "",
@@ -241,7 +241,7 @@ const SubscriptionForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 bg-white rounded-2xl shadow-md mt-10">
+    <div className="max-w-4xl mx-auto p-4 bg-white rounded-2xl shadow-md mt-10 mb-10">
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-600">
         Add Subscription
       </h2>
@@ -424,4 +424,4 @@ const SubscriptionForm = () => {
   );
 };
 
-export default SubscriptionForm;
+export default Subs;

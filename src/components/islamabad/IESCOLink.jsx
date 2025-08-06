@@ -127,30 +127,12 @@ export default function IESCOLink() {
         </ul>
 
         {/* Advertisement section */}
-        {/* <div className="mt-6 h-48 bg-red-300">
+        <div className="mt-6 h-48 ">
           <h2 className="text-blue-700 font-semibold text-base sm:text-lg">
             Advertisement
           </h2>
           <div className="h-40 sm:h-28 bg-gray-100 border mt-2 flex items-center justify-center text-gray-400 text-sm">
             Ad Space
-          </div>
-        </div> */}
-        <div className="mt-6 h-48 bg-red-300">
-          <h2 className="text-blue-700 font-semibold text-base sm:text-lg">
-            Advertisement
-          </h2>
-          <div className="h-40 sm:h-28 bg-gray-100 border mt-2 flex items-center justify-center">
-            <a
-              href="https://your-promoted-link.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="https://plus.unsplash.com/premium_photo-1673736136121-227cab583e22?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291cmNlfGVufDB8fDB8fHww"
-                alt="Ad Banner"
-                className="h-full 2xl:h-28 2xl:w-[800px] object-contain"
-              />
-            </a>
           </div>
         </div>
 
