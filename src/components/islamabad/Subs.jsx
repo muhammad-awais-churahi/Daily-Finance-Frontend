@@ -241,7 +241,7 @@ const Subs = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 bg-white rounded-2xl shadow-md mt-10 mb-10">
+    <div className="max-w-4xl mx-auto p-4 sm:ml-[7px] sm:mr-[9px]  bg-white md:ml-6 md:mr-2 md:-mt-0 lg:ml-[62px] lg:-mt-0 lg:mr-8 xl:ml-[126px] xl:-mt-0 xl:mr-24 2xl:-mt-0">
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-600">
         Add Subscription
       </h2>

@@ -260,7 +260,7 @@ export default function IESCONavbar() {
               { label: "Check Electricity Bill", href: "/home1/:company" },
               { label: "Bill Calculator", href: "/bill-cal" },
               { label: "IESCO Bill Payment", href: "" },
-              { label: "Monthly Bill Subscription", href: "/bill-subs" },
+              { label: "Monthly Bill Subscription", href: "/bills-subscr" },
               { label: "Old Bill History", href: "/bill-history" },
             ].map((item) => (
               <Link
