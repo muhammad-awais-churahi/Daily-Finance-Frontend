@@ -147,7 +147,7 @@ export default function IESCONavbar() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className=" bg-white  mt-2 sm:mt-4 md:mt-6 mx-4 sm:mx-6 md:mx-10 lg:mx-20 xl:mx-36 px-4 py-4 ">
+    <div className=" bg-yellow-500  mt-2 sm:mt-4 md:mt-6 mx-4 sm:mx-6 md:mx-10 lg:mx-20 xl:mx-36 px-4 py-4 ">
       {/* <div
       className=" bg-white  mt-2 sm:mt-4 md:mt-6 mx-4 sm:mx-6 md:mx-10 lg:mx-20 xl:mx-36 px-4 py-4 2xl:-mr-[420px]
     2xl:-ml-[-7px]"

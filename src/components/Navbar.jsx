@@ -351,8 +351,8 @@ export default function Navbar() {
         {/* Top Bar */}
         <div className="flex justify-between items-center px-4 py-3 max-w-7xl mx-auto">
           <div className="flex items-center space-x-2">
-            <Zap className="w-6 h-6" />
-            <h1 className="font-bold">Pak Utility Bills</h1>
+            <Zap className="w-6 h-6 cursor-text" />
+            <h1 className="font-bold text-[30px]"> Utility Hub</h1>
           </div>
 
           {/* Desktop Tabs */}
@@ -466,8 +466,19 @@ export default function Navbar() {
           </div>
         )}
       </nav>
+      {/* <marquee
+        scrollamount="8"
+        className="w-full  text-purple-400 font-medium text-[20px] py-2 px-4 "
+      >
+        For monthly receiving electrcity bills on your whatsApp, click on
+        "Monthly subscription" link in navbar
+      </marquee> */}
       {/* 👇 Conditional Rendering of IESCONavbar */}
-      {activeService === "electricity" && <IESCONavbar />}
+      {/* {(activeService === "electricity" ||
+        activeService === "water" ||
+        activeService === "gas" ||
+        activeService === "telecom") && <IESCONavbar />} */}
+      {/* {activeService === "electricity" && <IESCONavbar />} */}
     </>
   );
 }

@@ -133,6 +133,14 @@ export default function BillCal() {
         </div>
 
         {/* Calculator Section */}
+        <marquee
+          scrollamount="8"
+          className="w-full  text-yellow-500 font-medium text-[20px] py-2 px-4 "
+        >
+          ⚠️ Bill taxes and charges are continuously changed by government, so
+          this calculation may not match your current bill amount.
+        </marquee>
+
         <div className="p-6">
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Enter Units and Calculate your bill:
