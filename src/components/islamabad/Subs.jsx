@@ -241,8 +241,8 @@ const Subs = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 sm:ml-[7px] sm:mr-[9px]  bg-white md:ml-6 md:mr-2 md:-mt-0 lg:ml-[62px] lg:-mt-0 lg:mr-8 xl:ml-[126px] xl:-mt-0 xl:mr-24 2xl:-mt-0">
-      <h2 className="text-2xl font-bold mb-6 text-center text-blue-600">
+    <div className="max-w-4xl mx-auto p-4 sm:ml-[7px] sm:mr-[9px]  bg-white md:ml-6 md:mr-2 md:-mt-0 lg:ml-[62px] lg:-mt-0 lg:mr-8 xl:ml-[6px] xl:-mt-0 xl:mr-[-8px] ">
+      <h2 className="text-2xl font-bold mb-6 text-center text-gray-600">
         Add Subscription
       </h2>
       <form onSubmit={handleAdd} className="space-y-4">
@@ -358,7 +358,7 @@ const Subs = () => {
 
         <button
           type="submit"
-          className="w-1/3 ml-64   bg-sky-600 text-white py-2 px-4 rounded-xl hover:bg-sky-700 transition"
+          className="w-1/3 ml-64   bg-sky-600 text-white py-2 px-4 cursor-pointer rounded-sm hover:bg-sky-700 transition"
         >
           {editIndex !== null ? "Update" : "Add"}
         </button>
@@ -414,7 +414,7 @@ const Subs = () => {
           </table>
           <button
             onClick={handleSubscribe}
-            className="mt-6 w-1/3 ml-64 bg-green-600 text-white py-2 px-4 rounded-xl hover:bg-green-700 transition"
+            className="mt-6 w-1/3 ml-64 bg-green-600 text-white py-2 px-4 cursor-pointer rounded-sm  hover:bg-green-700 transition"
           >
             Subscribe
           </button>

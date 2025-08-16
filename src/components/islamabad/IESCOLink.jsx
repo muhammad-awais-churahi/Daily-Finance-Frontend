@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useCompany } from "../../context/CompanyContext";
 
 const iescoLinks = [
-  { name: "IESCO Duplicate Bill", url: "/duplicate-bill" },
+  { name: "IESCO Duplicate Bill", url: "https://bill.pitc.com.pk/iescobill" },
   { name: "IESCO Bill Calculator", url: "/bill-calculator" },
   { name: "Bill Payment Methods", url: "/payment-methods" },
   { name: "How it works?", url: "/how-it-works" },
@@ -113,7 +113,10 @@ export default function IESCOLink() {
         </h2>
         <ul className="space-y-2">
           {iescoLinks.map((link, index) => (
-            <li key={index} className="group transition duration-200">
+            <li
+              key={index}
+              className="group transition duration-200 cursor-pointer"
+            >
               <Link
                 to={link.url}
                 target="_blank"
